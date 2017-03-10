@@ -3,3 +3,8 @@ body{
     padding-top: 5rem;
 
 }
+
+pre{
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}

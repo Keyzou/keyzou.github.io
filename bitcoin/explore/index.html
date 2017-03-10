@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../../css/bootstrap.css">
+    <link rel="stylesheet" href="../../css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Arsenal" rel="stylesheet">
+    <title>BITCOIN</title>
+</head>
+<body>
+<nav class="navbar navbar-toggleable-md navbar-inverse bg-inverse fixed-top">
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand" href="#">Navbar</a>
+
+    <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="../../">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="../../bitcoin/">Bitcoin</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="../../bitcoin/explore/">Explore</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<div class="container">
+
+    <form id="formAdresse">
+        <div class="form-group" id="groupAddress">
+            <label class="form-control-label" for="address">Adresse Bitcoin</label>
+            <input type="text" class="form-control" id="address">
+            <div class="form-control-feedback">Erreur dans l'addresse !</div>
+        </div>
+        <input type="submit" class="btn btn-success" value="Envoyer">
+    </form>
+    <form id="formHashT">
+        <div class="form-group" id="groupHashT">
+            <label for="hashT">Hash transaction</label>
+            <input type="text" class="form-control" id="hashT">
+        </div>
+    <input type="submit" class="btn btn-success" value="Envoyer">
+    </form>
+    <form id="formHashB">
+        <div class="form-group" id="groupHashB">
+            <label for="hashB">Hash Block</label>
+            <input type="text" class="form-control" id="hashB">
+        </div>
+    <input type="submit" class="btn btn-success" value="Envoyer">
+    </form>
+
+
+</div><!-- /.container -->
+
+</body>
+<script
+        src="https://code.jquery.com/jquery-3.1.1.min.js"
+        integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+        crossorigin="anonymous"></script>
+<script src="../../js/bitcoin.js"></script>
+</html>
